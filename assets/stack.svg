@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 490" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="stack_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="50%" stop-color="#09122a"/>
+      <stop offset="100%" stop-color="#070b16"/>
+    </linearGradient>
+
+    <linearGradient id="stack_border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#ff354f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="stack_core_glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+
+    <pattern id="stack_grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#247bff" fill-opacity="0.12"/>
+    </pattern>
+
+    <style>
+      .font-sans {
+        font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      .font-mono {
+        font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="490" rx="20" fill="url(#stack_bg)"/>
+  <rect width="920" height="490" rx="20" fill="url(#stack_grid)"/>
+  <rect width="920" height="490" rx="20" stroke="url(#stack_border)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(45, 45)">
+    <text x="0" y="0" fill="#38bdf8" font-size="12" font-weight="700" class="font-mono" letter-spacing="2">03 // TECH UNIVERSE &amp; ORBITS</text>
+    <text x="0" y="28" fill="#f8fafc" font-size="24" font-weight="800" class="font-sans">TECHNOLOGY ARSENAL &amp; TOOLS</text>
+  </g>
+
+  <!-- Central Tilted Orbital System -->
+  <g transform="translate(460, 200)">
+    <!-- Ambient Radial Nebula -->
+    <circle cx="0" cy="0" r="140" fill="#247bff" fill-opacity="0.08"/>
+    <circle cx="0" cy="0" r="80" fill="#ff354f" fill-opacity="0.06"/>
+
+    <!-- Orbit 1: Outer Ellipse (AI & DevOps) -->
+    <ellipse cx="0" cy="0" rx="360" ry="75" stroke="#247bff" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="6 6" fill="none" transform="rotate(-12)">
+      <animateTransform attributeName="transform" type="rotate" from="-12" to="348" dur="45s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Orbit 2: Middle Ellipse (Frameworks & Web) -->
+    <ellipse cx="0" cy="0" rx="260" ry="55" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.45" fill="none" transform="rotate(18)">
+      <animateTransform attributeName="transform" type="rotate" from="18" to="-342" dur="35s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Orbit 3: Inner Ellipse (Core Languages) -->
+    <ellipse cx="0" cy="0" rx="160" ry="38" stroke="#ff354f" stroke-width="1.5" stroke-opacity="0.5" stroke-dasharray="4 4" fill="none" transform="rotate(-5)">
+      <animateTransform attributeName="transform" type="rotate" from="-5" to="355" dur="25s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Center Reactor Core Badge -->
+    <g>
+      <circle cx="0" cy="0" r="46" fill="#091329" stroke="url(#stack_core_glow)" stroke-width="2.5"/>
+      <circle cx="0" cy="0" r="38" fill="#0e1b38"/>
+      <text x="-16" y="-8" fill="#38bdf8" font-size="11" font-weight="800" class="font-mono">CORE</text>
+      <text x="-22" y="10" fill="#f8fafc" font-size="13" font-weight="900" class="font-sans">STACK</text>
+      <text x="-14" y="24" fill="#ff354f" font-size="9" font-weight="700" class="font-mono">v2026</text>
+    </g>
+
+    <!-- Orbiting Tech Chips (Floating around) -->
+    <!-- Python Node -->
+    <g transform="translate(-130, -50)">
+      <rect width="80" height="28" rx="14" fill="#0d1b38" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">🐍</text>
+      <text x="28" y="18" fill="#f8fafc" font-size="11" font-weight="700" class="font-mono">Python</text>
+      <animateTransform attributeName="transform" type="translate" values="-130 -50; -130 -56; -130 -50" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- React/Next Node -->
+    <g transform="translate(80, -60)">
+      <rect width="86" height="28" rx="14" fill="#08202c" stroke="#247bff" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">⚛️</text>
+      <text x="28" y="18" fill="#38bdf8" font-size="11" font-weight="700" class="font-mono">Next.js</text>
+      <animateTransform attributeName="transform" type="translate" values="80 -60; 80 -54; 80 -60" dur="3.6s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- NLP/AI Node -->
+    <g transform="translate(190, -10)">
+      <rect width="82" height="28" rx="14" fill="#1f0a14" stroke="#ff354f" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">🧠</text>
+      <text x="28" y="18" fill="#ff354f" font-size="11" font-weight="700" class="font-mono">NLP / AI</text>
+      <animateTransform attributeName="transform" type="translate" values="190 -10; 190 -4; 190 -10" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Java Node -->
+    <g transform="translate(-240, 0)">
+      <rect width="75" height="28" rx="14" fill="#0c1630" stroke="#ff354f" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">☕</text>
+      <text x="28" y="18" fill="#f8fafc" font-size="11" font-weight="700" class="font-mono">Java</text>
+      <animateTransform attributeName="transform" type="translate" values="-240 0; -240 6; -240 0" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- MySQL Node -->
+    <g transform="translate(-110, 45)">
+      <rect width="85" height="28" rx="14" fill="#0d1b38" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">🐬</text>
+      <text x="28" y="18" fill="#38bdf8" font-size="11" font-weight="700" class="font-mono">MySQL</text>
+      <animateTransform attributeName="transform" type="translate" values="-110 45; -110 39; -110 45" dur="3.8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Nova Ext Node -->
+    <g transform="translate(60, 45)">
+      <rect width="105" height="28" rx="14" fill="#1a0c24" stroke="#247bff" stroke-width="1.2"/>
+      <text x="10" y="18" font-size="12">🧩</text>
+      <text x="28" y="18" fill="#f8fafc" font-size="11" font-weight="700" class="font-mono">Chrome Ext</text>
+      <animateTransform attributeName="transform" type="translate" values="60 45; 60 51; 60 45" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Bottom Grouped Stack Cards -->
+  <g transform="translate(45, 320)">
+    <!-- Column 1: AI & Intelligence -->
+    <g transform="translate(0, 0)">
+      <rect width="265" height="135" rx="14" fill="#0a1226" stroke="#247bff" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="18" y="28" fill="#38bdf8" font-size="14" font-weight="800" class="font-sans">🧠 AI &amp; MACHINE LEARNING</text>
+      
+      <g transform="translate(16, 42)">
+        <!-- Python -->
+        <rect width="68" height="24" rx="6" fill="#0f2247"/>
+        <text x="10" y="16" fill="#f8fafc" font-size="11" class="font-mono">Python</text>
+
+        <!-- NLP -->
+        <rect x="76" width="55" height="24" rx="6" fill="#0f2247"/>
+        <text x="86" y="16" fill="#38bdf8" font-size="11" class="font-mono">NLP</text>
+
+        <!-- Chatbots -->
+        <rect x="139" width="80" height="24" rx="6" fill="#0f2247"/>
+        <text x="147" y="16" fill="#f8fafc" font-size="11" class="font-mono">Chatbots</text>
+
+        <!-- Sentiment Analysis -->
+        <rect y="32" width="130" height="24" rx="6" fill="#0f2247"/>
+        <text x="10" y="48" fill="#38bdf8" font-size="11" class="font-mono">Sentiment Analysis</text>
+
+        <!-- LLMs & Prompts -->
+        <rect x="138" y="32" width="95" height="24" rx="6" fill="#0f2247"/>
+        <text x="146" y="48" fill="#f8fafc" font-size="11" class="font-mono">Prompt Eng</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Web & Frontend -->
+    <g transform="translate(282, 0)">
+      <rect width="265" height="135" rx="14" fill="#0a1226" stroke="#ff354f" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="18" y="28" fill="#ff354f" font-size="14" font-weight="800" class="font-sans">⚡ WEB &amp; EXTENSIONS</text>
+
+      <g transform="translate(16, 42)">
+        <rect width="75" height="24" rx="6" fill="#290e1b"/>
+        <text x="10" y="16" fill="#f8fafc" font-size="11" class="font-mono">Next.js</text>
+
+        <rect x="83" width="65" height="24" rx="6" fill="#290e1b"/>
+        <text x="93" y="16" fill="#ff354f" font-size="11" class="font-mono">React</text>
+
+        <rect x="156" width="85" height="24" rx="6" fill="#290e1b"/>
+        <text x="164" y="16" fill="#f8fafc" font-size="11" class="font-mono">TypeScript</text>
+
+        <rect y="32" width="125" height="24" rx="6" fill="#290e1b"/>
+        <text x="10" y="48" fill="#ff354f" font-size="11" class="font-mono">Manifest V3 Ext</text>
+
+        <rect x="133" y="32" width="95" height="24" rx="6" fill="#290e1b"/>
+        <text x="141" y="48" fill="#f8fafc" font-size="11" class="font-mono">TailwindCSS</text>
+      </g>
+    </g>
+
+    <!-- Column 3: Backend & Databases -->
+    <g transform="translate(565, 0)">
+      <rect width="265" height="135" rx="14" fill="#0a1226" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="18" y="28" fill="#38bdf8" font-size="14" font-weight="800" class="font-sans">🗄️ BACKEND &amp; SYSTEMS</text>
+
+      <g transform="translate(16, 42)">
+        <rect width="65" height="24" rx="6" fill="#0a2336"/>
+        <text x="10" y="16" fill="#f8fafc" font-size="11" class="font-mono">Node.js</text>
+
+        <rect x="73" width="55" height="24" rx="6" fill="#0a2336"/>
+        <text x="83" y="16" fill="#38bdf8" font-size="11" class="font-mono">PHP</text>
+
+        <rect x="136" width="60" height="24" rx="6" fill="#0a2336"/>
+        <text x="146" y="16" fill="#f8fafc" font-size="11" class="font-mono">Java</text>
+
+        <rect y="32" width="75" height="24" rx="6" fill="#0a2336"/>
+        <text x="10" y="48" fill="#38bdf8" font-size="11" class="font-mono">MySQL</text>
+
+        <rect x="83" y="32" width="75" height="24" rx="6" fill="#0a2336"/>
+        <text x="91" y="48" fill="#f8fafc" font-size="11" class="font-mono">REST API</text>
+
+        <rect x="166" y="32" width="60" height="24" rx="6" fill="#0a2336"/>
+        <text x="176" y="48" fill="#f8fafc" font-size="11" class="font-mono">Git</text>
+      </g>
+    </g>
+  </g>
+</svg>
