@@ -3,19 +3,19 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-![Intro](./assets/hero.svg?v=1)
+![Intro](./assets/hero.svg?v=1792137207)
 
 <!-- ABOUT & LIFE CAROUSEL -->
-![About](./assets/about-life.svg?v=1)
+![About](./assets/about-life.svg?v=1792137207)
 
 <!-- TECH UNIVERSE & STACK -->
-![Stack](./assets/stack.svg?v=1)
+![Stack](./assets/stack.svg?v=1792137207)
 
 <!-- ID PASSPORT & TELEMETRY -->
-![ID](./assets/id-dashboard.svg?v=1)
+![ID](./assets/id-dashboard.svg?v=1792137207)
 
 <!-- CONNECT & REACH OUT -->
-![Connect](./assets/connect.svg?v=1)
+![Connect](./assets/connect.svg?v=1792137207)
 
 </div>
 
